@@ -16,14 +16,6 @@ public class Employee {
     public void updateEmployeeName(String newName) {
         this.name = newName;
     }
-    
-    public void updateSalary(double newSalary) {
-        this.salary = newSalary;
-    }
-    
-    public void displayEmployeeDetails() {
-        System.out.println("Employee details displayed");
-    }
 
     public void displayEmployee() {
         System.out.println("ID: " + id);
